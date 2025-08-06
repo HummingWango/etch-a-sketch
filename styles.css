@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    flex-shrink:0;
+    background-color: lightgrey;
+}
