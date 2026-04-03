@@ -2,18 +2,19 @@
     display: flex;
     flex-wrap: wrap;
     margin: 100px;
+    width: 960px;
 }
 
 .column {
     display: flex;
+    height: 960px;
+    flex-grow:1;
     flex-direction: column;
 }
 
 .grid {
     display: flex;
-    height: 40px;
-    width: 40px;
-    flex-shrink:0;
+    flex-grow: 1;
     background-color: lightgrey;
 }
 

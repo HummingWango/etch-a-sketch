@@ -21,5 +21,16 @@ function addGrid(x, y) {
 
     
 }
+addGrid(20,20);
+const button = document.querySelector("button")
+button.addEventListener("click", () => {
+    let side = prompt("How many pixels wide is your canvas?");
+    if (side <= 100 & side > 0) {
+        container.replaceChildren();
+        addGrid(side,side);
+    } else {
+        alert("Invalid Value")
+    }
+    
+});
 
-addGrid(16,16);
