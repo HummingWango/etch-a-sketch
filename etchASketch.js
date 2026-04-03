@@ -8,13 +8,18 @@ function addGrid(x, y) {
         for (let j = 0; j < y; j++) {
             const div = document.createElement("div");
             div.setAttribute("class", "grid");
-
             col.appendChild(div);
+
+            div.addEventListener("mouseenter", (e) => {
+                e.target.setAttribute("id", "mouseon");
+            });
+
         }
 
         container.appendChild(col);
     }
+
     
 }
 
-addGrid(20,14);
+addGrid(16,16);

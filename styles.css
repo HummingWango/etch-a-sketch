@@ -16,3 +16,11 @@
     flex-shrink:0;
     background-color: lightgrey;
 }
+
+#mouseon {
+    background-color: black;
+}
+
+#mouseoff {
+    background-color: lightgrey;
+}
